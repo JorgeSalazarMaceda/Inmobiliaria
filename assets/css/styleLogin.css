@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../fotos/fondoLogin.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#contenedor {
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+}
+
+#contenedor_derecha {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 5px 3px rgb(0 0 0 / 40%), 5px 5px 5px 5px rgb(0 0 0 / 40%);
+    text-align: center;
+    border-radius: 8px;
+}
+h1 {
+    font-size: 4vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #333333;
+    text-shadow: 2px 2px 2px #cccccc;
+}
+label {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 60%;
+    padding: 6px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(165, 164, 164);
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+    width: 70%;
+    height: 5vh;
+}
+
+#mensajes {
+    font-size: large;
+    color: red;
+}
+

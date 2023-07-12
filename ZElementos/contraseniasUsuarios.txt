@@ -1,0 +1,8 @@
+Contraseñas: Cuando insertas usuario, redirigimos a login y mostramos
+admin: Siempre será admin
+jorge: 4V9eifl
+marina:jeKCSa24UE
+juan:mZTR4
+vicky: zcJFY4kNS
+dante:iF5JvuSGQ
+aitor: 1BDNjZJ8
